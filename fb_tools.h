@@ -20,10 +20,6 @@ struct framebuffer {
   struct fb_fix_screeninfo finfo;   /* Framebuffer fixed video information. */
 };
 
-struct pixel {                      /* Structure for 1 pixel. */
-  int x, y;                         /* Pixel (x,y). */  
-  unsigned int r, g, b, a;          /* Pixel color in RGB-Alpha mode (Alpha = 0 => none). */
-};
 
 /*
   Open the fb devive file for R/W, and alloc double buffer address.

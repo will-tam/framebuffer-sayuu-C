@@ -1,5 +1,5 @@
-#ifndef _COLOR_CLOCK_H
-#define _COLOR_CLOCK_H
+#ifndef _SAYUU_H
+#define _SAYUU_H
 
 #include <time.h>
 
