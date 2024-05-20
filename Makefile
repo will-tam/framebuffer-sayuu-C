@@ -5,7 +5,7 @@ CFLAGS= -Wall -Wextra -g #-ansi #-O3
 #CFLAGS= -Wall -Wextra -g -O3
 LDFLAGS= #-lm
 
-TOBUILD=sayu-
+TOBUILD=sayuu
 
 SRC= $(wildcard *.c)
 OBJ= $(SRC:.c=.o)
