@@ -1,4 +1,4 @@
-# Framebuffer right and left moving squre (C version)
+# Framebuffer right and left moving square (C version)
 
 Just a square moving from right to left, and right, and left, ... to test frambuffer library.
 
