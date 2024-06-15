@@ -56,7 +56,7 @@ struct framebuffer *initfb()
   printf("\n");
   /* Get variable informations VLB. */
 
-  fb.screensize = fb.vinfo.xres_virtual * fb.vinfo.yres * fb.vinfo.bits_per_pixel >> 3;
+  fb.screensize = fb.vinfo.xres_virtual * fb.vinfo.yres_virtual * fb.vinfo.bits_per_pixel >> 3;
 
   /* Map /dev/fb0 to vRAM. */
   fb.vramfbp = (char *) mmap(0, fb.screensize, PROT_READ | PROT_WRITE, MAP_SHARED, fb.fbfd, 0);
